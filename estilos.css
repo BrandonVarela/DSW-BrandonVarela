@@ -1,5 +1,7 @@
 *{
     font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    margin:0px;
+    padding:0px;
 }
 
 p{ 
@@ -30,8 +32,17 @@ p{
 
 .navegacion {
     position: absolute;
-    left: 30%;
+    left: 33%;
     top: 15%;
+}
+
+.navegacion li ul li {
+    position:relative;
+}
+
+.navegacion li ul li ul {
+    right:-140px;
+    top:0px;
 }
 
 ul {
@@ -65,8 +76,10 @@ ul {
 .sub_menu {
     position: absolute;
     width: 150%;
+    height: 100%;
     visibility: hidden;
-    margin: 1px;
+    margin: 0%;
+    padding: 0%;
 }
 
 .sub_menu  li  a{
@@ -76,9 +89,8 @@ ul {
     font-size: large;
     text-decoration: none;
     padding: 3px 10px;
-    margin: 10px;
-    border-top-left-radius: 10px;
-    display: block;    
+    display: block;
+     
 }
 
 .boton_menu li:hover .sub_menu{
@@ -86,9 +98,8 @@ ul {
     z-index: 99;   
 }
 
-
 article {
-    left: 33%;
+    left: 34%;
     width:48%; 
     position: absolute;
     display: inline-block;
@@ -163,8 +174,7 @@ aside {
     position: absolute;
     margin: 0%;
     padding: 0%;
-    z-index: 99; 
-}
+    }
 
 footer {
     background: #333333;
@@ -178,11 +188,11 @@ footer {
 .LogoUnad  {
     height: 110px;
     position: absolute;
-    left: 1;
+    left: 36%;
 }
 
 .textofooter {
     color: #b3b3b3;
     position: absolute;
-    left: 10%;  
+    left:46%;
 }
