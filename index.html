@@ -1,19 +1,96 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
     <title>Inicio</title>
+
+    <link rel="stylesheet" href="estilos.css">
 </head>
-
 <body>
-    <h2>Brandon Estivenn Varela Rodriguez</h2>
-    <h3>Ingeniería en Sistemas</h3>
-    <h3>Septiembre 2020</h3>
-    <h3>Skype: brandonvarela96</h3>
-    <h3>E-mail: brandonvr96@gmail.com</h3>
-    <a href="planing.html">Guión y Maquetación</a>
+    
+    <div class="encabezado">
+    <img class="LogoCSS3" src="Imagenes/LogoCSS3.png" alt="LogoCSS3">
+    <h1 class="titulo">OVA 4 - Propiedades básicas de CSS, Display</h1>
+    </div>
+
+    <nav class="navegacion">
+        <ul class="boton_menu">
+            <li><a href="conceptos.html">Conceptos</a>
+                <ul class="sub_menu">
+                    <li><a href="">Propiedades básicas de CSS</a></li>
+                    <li><a href="">Propiedad Display CSS</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="recursos.html">Recursos</a>
+                <ul class="sub_menu">
+                    <li><a href="">Video Propiedades básicas de CSS</a></li>
+                    <li><a href="">Video Propiedad Display CSS</a></li>
+                </ul>            
+            </li>
+
+            <li><a href="autoevaluacion.html">Autoevaluación</a>
+                <ul class="sub_menu">
+                    <li><a href="">Autoevaluación 1</a></li>
+                    <li><a href="">Autoevaluación 2</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="autor.html">Autor</a></li>
+        </ul>
+    </nav>
+    <br>
+    <article>
+
+        <div id="tablasarticulo">                   
+                
+            <input type="radio" name="tabla" id="radio1" value="1" checked="checked"><label for="radio1">Descripción general</label>
+            <input type="radio" name="tabla" id="radio2" value="2"><label for="radio2">Objetivo General</label>
+            <input type="radio" name="tabla" id="radio3" value="3"><label for="radio3">Objetivos específicos</label>
+            
+
+            <div class="contenedor">    
+                <div class="cont">
+                <p>A Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+            officia deserunt mollit anim id est laborum</p>
+                </div>
+                
+                <div class="cont">
+                <p>
+                Mostrar y dar a conocer a los estudiantes que están entrando al mundo 
+                del diseño web las propiedades básicas de CSS y Display CSS, y de este modo, 
+                las puedan empezar a utilizar en sus proyectos web.
+                </p>
+                </div>
+            
+                <div class="cont">
+                <p>
+                    <ul>
+                        <li>Dar a conocer los diferentes comandos CSS y Display CSS.</li>
+                        <li>Identificar las propiedades básicas de CSS y Display CSS.</li>
+                        <li>Utilizar las propiedades básicas de CSS y Display CSS.</li>
+                        <li>Explicar los escenarios o espacios donde se debe utilizar cada propiedad.</li>
+                    </ul>
+                </p>
+                </div> 
+             <br class="clearfix">   
+            </div>
+    </article>
+
+    <footer>
+        <img class="LogoUnad" src="Imagenes/LogoUnad.png" alt="Logo Unad">
+        <h5 class="textofooter">© 2020 Universidad Nacional Abierta y a Distancia UNAD.<br>
+        Estudiante: Brandon Varela Rodriguez<br>
+        Curso: DISEÑOS DE SITIOS WEB - (301122A_764)       
+        </h5>
+    </footer>
+
 </body>
-
-
 </html>
