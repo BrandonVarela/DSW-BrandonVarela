@@ -36,15 +36,6 @@ p{
     top: 15%;
 }
 
-.navegacion li ul li {
-    position:relative;
-}
-
-.navegacion li ul li ul {
-    right:-140px;
-    top:0px;
-}
-
 ul {
     list-style: none;
 } 
@@ -197,3 +188,78 @@ footer {
     left:46%;
     padding: 2%;
 }
+
+/* -------------------------  Paginas secundarias */
+
+.titulo_sec {
+    top: 3%;
+    right: 9%;
+    width: 750px;
+    text-align: center;
+    color: seashell ;
+    position: absolute;
+    border: 7px black; 
+    }
+   
+.encabezado_sec {
+
+    background: #005883;
+    width: 100%;
+    height: 140px;
+   
+}
+
+.navegacion_sec {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+}
+
+.boton_menu_sec > li{
+    position: relative;
+    display: inline-block;
+}
+
+.boton_menu_sec > li > a {
+    text-decoration: none;
+    display: block;
+    font-size: large;
+    padding: 10px 30px;
+    margin: 10px;
+    color: seashell;
+    border: #F0B429 solid 2px;
+    background: #005883;
+    border-top-right-radius: 10px;
+}
+
+.boton_menu_sec li a:hover {
+    color: #005883;
+    border:#005883 solid 2px;
+    background: #F0B429;
+    transition: all .3s;
+}
+
+.sub_menu_sec {
+    position: absolute;
+    width: 150%;
+    height: 100%;
+    visibility: hidden;
+    margin: 0%;
+    padding: 0%;
+}
+
+.sub_menu_sec  li  a{
+    border: #333333 solid 2px;
+    color: #b3b3b3;
+    background: #333333;
+    font-size: large;
+    text-decoration: none;
+    padding: 3px 10px;
+    display: block;
+}
+
+.boton_menu_sec li:hover .sub_menu_sec{
+    visibility: visible;
+    z-index: 99;   
+}
+
