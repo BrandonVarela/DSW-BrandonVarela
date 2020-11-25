@@ -157,9 +157,8 @@ aside {
     right: 0%;
     height: 100px;
     top: 0%;
-
 }
-
+    
 .twitter-timeline {
     position: absolute;
     margin: 0%;
@@ -167,23 +166,15 @@ aside {
 }
 
 footer {
-    background: #333333;
+    background-image: url('../Imagenes/LogoUnad.png');
     width:100%; 
     height: 110px;
-    position: fixed;
-    bottom: 0%;
     display: block;
-
-    
+    position: fixed;
+    bottom: 0%;       
 }
 
-.LogoUnad  {
-    height: 110px;
-    position: absolute;
-    left: 36%;
-}
-
-.textofooter {
+footer h5 {
     color: #b3b3b3;
     position: absolute;
     left:46%;
@@ -269,6 +260,7 @@ footer {
     line-height: 1.5;
     height: 350px;
     bottom: 23%;
+    display: block;
     }
 
 .articulo_sec ul{
@@ -286,4 +278,5 @@ footer {
     position: absolute;
     right: 0%;
     top: 6.5%;
+    box-shadow: #333333;
 }
