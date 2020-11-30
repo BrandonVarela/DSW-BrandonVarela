@@ -80,7 +80,7 @@ border-style:solid;border-width:thin;-webkit-border-radius:4px;-moz-border-radiu
 footer {
     background-image: url('../Imagenes/LogoUnad.png');
     width:100%; 
-    height: 110px;
+    height: 130px;
     display: block;
         bottom: 0%;       
 }
@@ -89,7 +89,7 @@ footer h5 {
     color: #b3b3b3;
     position: absolute;
     left:46%;
-    padding: 2%;
+    padding: 1%;
     top: 8 px;
 }
 

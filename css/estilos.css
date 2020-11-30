@@ -119,7 +119,7 @@ div.cont{
     float:left; 
     opacity:0; 
     display:none;
-}    
+    }    
 
 input:checked+label{ 
     border-bottom:none; 
@@ -168,7 +168,7 @@ aside {
 footer {
     background-image: url('../Imagenes/LogoUnad.png');
     width:100%; 
-    height: 110px;
+    height: 130px;
     display: block;
     position: fixed;
     bottom: 0%;       
@@ -279,4 +279,8 @@ footer h5 {
     right: 0%;
     top: 6.5%;
     box-shadow: #333333;
+}
+
+.gcse-search {
+    width: 200px;
 }
