@@ -11,7 +11,6 @@ p{
 .LogoCSS3 {
     position: fixed;
     top: 7%;
-    width: 400x;
     left: 5%;
     height: 500px;
     }
@@ -74,7 +73,6 @@ ul {
 }
 
 .sub_menu  li  a{
-    border: #333333 solid 2px;
     color: #b3b3b3;
     background: #333333;
     font-size: large;
@@ -273,12 +271,11 @@ footer h5 {
 }
 
 .imgautor{
-    width: 278px;
-    height: 334px;
+    width: 158px;
+    height: 194px;
     position: absolute;
     right: 0%;
     top: 6.5%;
-    box-shadow: #333333;
 }
 
 .gcse-search {
